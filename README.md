@@ -83,6 +83,7 @@ npm run build
     }
   }
 }
+```
 
 ### Debugging
 

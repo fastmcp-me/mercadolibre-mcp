@@ -1,4 +1,5 @@
 ![](https://badge.mcpx.dev?type=server 'MCP Server')
+[![smithery badge](https://smithery.ai/badge/@lumile/mercadolibre-mcp)](https://smithery.ai/server/@lumile/mercadolibre-mcp)
 # MercadoLibre MCP Server
 
 An MCP server that provides access to MercadoLibre API.
@@ -33,6 +34,14 @@ Once you have the credentials, you can set the `CLIENT_ID` and `CLIENT_SECRET` e
 ### Installation
 
 There are two ways to use this server:
+
+#### Installing via Smithery
+
+To install MercadoLibre MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@lumile/mercadolibre-mcp):
+
+```bash
+npx -y @smithery/cli install @lumile/mercadolibre-mcp --client claude
+```
 
 #### Option 1: NPX (Recommended)
 Add this configuration to your Claude Desktop config file:

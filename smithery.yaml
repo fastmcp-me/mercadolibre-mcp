@@ -1,0 +1,25 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - clientId
+      - clientSecret
+      - siteId
+    properties:
+      clientId:
+        type: string
+        description: MercadoLibre Client ID.
+      clientSecret:
+        type: string
+        description: MercadoLibre Client Secret.
+      siteId:
+        type: string
+        description: MercadoLibre Site ID (e.g., MLA, MLB, MCO, MEX, MLU, MLC).
+  commandFunction:
+    # A function that produces the CLI command to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'node', args: ['build/index.js'], env: { CLIENT_ID: config.clientId, CLIENT_SECRET: config.clientSecret, SITE_ID: config.siteId } })

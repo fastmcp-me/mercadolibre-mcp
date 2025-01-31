@@ -7,10 +7,13 @@
   "main": "build/index.js",
   "homepage": "https://lumile.com.ar",
   "bugs": "https://github.com/lumile/mercadolibre-mcp/issues",
-  "repository": "https://github.com/lumile/mercadolibre-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumile/mercadolibre-mcp.git"
+  },
   "type": "module",
   "bin": {
-    "mercadolibre-mcp": "./build/index.js"
+    "mercadolibre-mcp": "build/index.js"
   },
   "files": [
     "build"

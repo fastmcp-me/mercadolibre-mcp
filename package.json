@@ -1,0 +1,40 @@
+{
+  "name": "mercadolibre-mcp",
+  "version": "0.1.1",
+  "description": "A Model Context Protocol server for Mercado Libre",
+  "license": "MIT",
+  "author": "Lumile Argentina S.A. - https://lumile.com.ar",
+  "main": "build/index.js",
+  "homepage": "https://lumile.com.ar",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "mercadolibre-mcp": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.4.1",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.57.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.6.0",
+    "typescript": "^5.3.3"
+  }
+}

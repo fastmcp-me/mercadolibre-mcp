@@ -44,7 +44,7 @@ Add this configuration to your Claude Desktop config file:
       "command": "npx",
       "args": [
         "-y",
-        "@lumile/mercadolibre-mcp"
+        "mercadolibre-mcp"
       ],
       "env": {
         "CLIENT_ID": "<YOUR_CLIENT_ID>",

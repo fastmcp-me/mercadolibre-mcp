@@ -6,7 +6,8 @@
   "author": "Lumile Argentina S.A. - https://lumile.com.ar",
   "main": "build/index.js",
   "homepage": "https://lumile.com.ar",
-  "private": true,
+  "bugs": "https://github.com/lumile/mercadolibre-mcp/issues",
+  "repository": "https://github.com/lumile/mercadolibre-mcp",
   "type": "module",
   "bin": {
     "mercadolibre-mcp": "./build/index.js"

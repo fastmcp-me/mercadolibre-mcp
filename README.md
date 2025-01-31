@@ -1,4 +1,5 @@
-# MercadoLibre MCP Server 🔍
+![](https://badge.mcpx.dev?type=server 'MCP Server')
+# MercadoLibre MCP Server
 
 An MCP server that provides access to MercadoLibre API.
 

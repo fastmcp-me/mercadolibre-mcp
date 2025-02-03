@@ -4,6 +4,8 @@
 
 An MCP server that provides access to MercadoLibre API.
 
+<a href="https://glama.ai/mcp/servers/hgsefxwq4c"><img width="380" height="200" src="https://glama.ai/mcp/servers/hgsefxwq4c/badge" alt="MercadoLibre Server MCP server" /></a>
+
 ## Features
 
 ### Tools

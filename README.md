@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/lumile-mercadolibre-mcp-badge.png)](https://mseep.ai/app/lumile-mercadolibre-mcp)
+
 ![](https://badge.mcpx.dev?type=server 'MCP Server')
 [![smithery badge](https://smithery.ai/badge/@lumile/mercadolibre-mcp)](https://smithery.ai/server/@lumile/mercadolibre-mcp)
 # MercadoLibre MCP Server

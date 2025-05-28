@@ -1,6 +1,6 @@
 {
   "name": "mercadolibre-mcp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Model Context Protocol server for Mercado Libre",
   "license": "MIT",
   "author": "Lumile Argentina S.A. - https://lumile.com.ar",

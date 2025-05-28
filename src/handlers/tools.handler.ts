@@ -11,30 +11,30 @@ export class ToolsHandler {
   listTools () {
     return {
       tools: [
-        {
-          name: 'search_products',
-          description: 'Busca productos en MercadoLibre',
-          inputSchema: {
-            type: 'object',
-            properties: {
-              query: {
-                type: 'string',
-                description: 'Consulta de búsqueda'
-              },
-              limit: {
-                type: 'number',
-                description: 'Cantidad de resultados a devolver',
-                default: 10
-              },
-              offset: {
-                type: 'number',
-                description: 'Cantidad de resultados a saltar',
-                default: 0
-              }
-            },
-            required: ['query']
-          }
-        },
+        // {
+        //   name: 'search_products',
+        //   description: 'Busca productos en MercadoLibre',
+        //   inputSchema: {
+        //     type: 'object',
+        //     properties: {
+        //       query: {
+        //         type: 'string',
+        //         description: 'Consulta de búsqueda'
+        //       },
+        //       limit: {
+        //         type: 'number',
+        //         description: 'Cantidad de resultados a devolver',
+        //         default: 10
+        //       },
+        //       offset: {
+        //         type: 'number',
+        //         description: 'Cantidad de resultados a saltar',
+        //         default: 0
+        //       }
+        //     },
+        //     required: ['query']
+        //   }
+        // },
         {
           name: 'seller_reputation',
           description: 'Obtiene la reputación de un vendedor',

@@ -36,7 +36,9 @@ export class ApiService {
       { headers }
     )
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`)
+      const errorData = await response.json() as { message?: string }
+      console.error(errorData)
+      throw new Error(`HTTP error! status: ${response.status}, message: ${errorData.message}`)
     }
     const data = await response.json() as MercadoLibreSearchResponse
     return {

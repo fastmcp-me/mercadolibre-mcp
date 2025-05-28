@@ -6,10 +6,12 @@ An MCP server that provides access to MercadoLibre API.
 
 <a href="https://glama.ai/mcp/servers/hgsefxwq4c"><img width="380" height="200" src="https://glama.ai/mcp/servers/hgsefxwq4c/badge" alt="MercadoLibre Server MCP server" /></a>
 
+IMPORTANT: due to changes in MercadoLibre's API policies, it is no longer possible to access their search API. As a result, we have had to deprecate the `search_products` tool. This change is in compliance with MercadoLibre's new restrictions on API usage. Other tools remain functional and will continue to be supported.
+
 ## Features
 
 ### Tools
-- `search_products` - Search products in MercadoLibre, and return a list of products.
+- `search_products` - **DEPRECATED**: Search products in MercadoLibre, and return a list of products. (No longer available due to API policy changes)
   - `query` - The search query
   - `category` - The category to search in
   - `filters` - The filters to apply
